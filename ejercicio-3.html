@@ -10,7 +10,11 @@
 			float: left;
 			width: 40%;
 			height: 250px;
-			background-color: grey;
+			background-color: white;
+			border-color: gray;
+			border-style: solid;;
+			border-width: 1px;
+			display: inline;
 
 		}
 
@@ -62,29 +66,77 @@
 		}
 
 		#rojo1-din{
-			display: inline;
-		
+			float: left;
+			width: 20%;
+			height: 115px;
 			background-color: red;
-			width:30%;
+		
 
 		}
 
 		#rojo2-din{
-			display: inline;
-			
+			float: right;
+			width: 75%;
+			height: 115px;
 			background-color: red;
-			width: 60%;
+			
 			
 		}
 
 		#rojo3-din{
+			float: left;
+			width: 20%;
+			height: 115px;
 			background-color: red;
+			margin-top: 20px;
+		
 			
 		}
 
 		#rojo4-din{
+			float: right;
+			width: 75%;
+			height: 115px;
 			background-color: red;
+			margin-top: 20px;
+
 			
+		}
+
+		.circulo {
+    	border-radius:50%;
+		width: 113px;
+		height: 111px;
+		background: red;
+		margin-left: 180px;
+		margin-top: 70px;
+		position: relative;
+		}
+
+		p{
+			float: left;
+			position: relative;
+			font-family: verdana;
+		}
+
+		#p-españa{
+			margin-top: 7px;
+
+		}
+
+		#p-dinamarca{
+			margin-top: 7px;
+
+		}
+
+		#p-emiratos{
+			right: 87px;
+
+		}
+
+		#p-japon{
+			top: 69px;
+
 		}
 
 
@@ -99,6 +151,7 @@
 		<div id="rojo1-espana"></div>
 		<div id="amarillo-espana"></div>
 		<div id="rojo2-espana"></div>
+		<p id="p-españa">España</p>
 	</div>
 	
 	<div class="bandera">
@@ -106,6 +159,7 @@
 		<div id="rojo2-din"></div>
 		<div id="rojo3-din"></div>
 		<div id="rojo4-din"></div>
+		<p id="p-dinamarca">Dinamarca</p>
 	</div>
 	
 	<div class="bandera">
@@ -113,9 +167,13 @@
 		<div id="verde-emiratos"></div>
 		<div id="blanco-emiratos"></div>
 		<div id="negro-emiratos"></div>
+		<p id="p-emiratos">Emiratos Arabes</p>
 	</div>
 	
 	<div class="bandera">
+
+		<div class="circulo"></div>
+		<p id="p-japon">Japón</p>
 		
 	</div>
 	
